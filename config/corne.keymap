@@ -208,10 +208,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&trans  &kp EXCL    &kp AT    &kp HASH      &kp DOLLAR            &kp PERCENT      &kp CARET       &kp AMPS        &kp ASTRK       &kp LPAR         &kp RPAR     &trans
-&trans  &kp ESCAPE  &kp HOME  &kp UP_ARROW  &hm LEFT_CONTROL END  &kp PAGE_UP      &msc SCRL_UP    &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &kp RS(F10)  &trans
-&trans  &kp DELETE  &kp LEFT  &kp DOWN      &kp RIGHT_ARROW       &kp PAGE_DOWN    &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp F12      &trans
-                              &trans        &trans                &trans           &kp RET         &mo 3           &trans
+&trans  &kp EXCL    &kp AT    &kp HASH      &kp DOLLAR       &kp PERCENT            &kp CARET       &kp AMPS        &kp ASTRK       &kp LPAR         &kp RPAR     &trans
+&trans  &kp ESCAPE  &kp HOME  &kp UP_ARROW  &mt MINUS END    &mt PLUS PAGE_UP       &msc SCRL_UP    &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &kp RS(F10)  &trans
+&trans  &kp DELETE  &kp LEFT  &kp DOWN      &kp RIGHT_ARROW  &mt EQUAL PAGE_DOWN    &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp F12      &trans
+                              &trans        &trans           &trans                 &kp RET         &mo 3           &trans
             >;
         };
 
