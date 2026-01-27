@@ -57,6 +57,24 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
         };
+
+        com_semi: com_semi {
+            compatible = "zmk,behavior-mod-morph";
+            label = "COM_SEMI";
+            bindings = <&kp COMMA>, <&kp SEMI>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        per_col: per_col {
+            compatible = "zmk,behavior-mod-morph";
+            label = "PER_COL";
+            bindings = <&kp PERIOD>, <&kp COLON>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     combos {
