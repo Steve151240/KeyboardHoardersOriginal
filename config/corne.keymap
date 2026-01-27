@@ -173,10 +173,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&trans  &kp B       &kp L        &kp D       &kp C        &kp V        &kp J          &kp Y        &kp O       &kp U        &kp SQT     &trans
-&trans  &hm LGUI N  &hm LSHFT R  &hm LALT T  &hm LCTRL S  &kp G        &kp P          &hm RCTRL H  &hm RALT A  &hm RSHFT E  &hm RGUI I  &trans
-&trans  &kp X       &kp Q        &kp M       &kp W        &kp Z        &kp K          &kp F        &kp COMMA   &kp DOT      &kp FSLH    &trans
-                                 &kp TAB     &mo 1        &kp SPACE    &kp BACKSPACE  &mo 2        &kp RSHFT
+&trans  &kp B       &kp L        &kp D           &kp C        &kp V         &kp J      &kp Y        &kp O       &kp U        &kp SQT     &trans
+&trans  &hm LGUI N  &hm LSHFT R  &hm LALT T      &hm LCTRL S  &kp G         &kp P      &hm RCTRL H  &hm RALT A  &hm RSHFT E  &hm RGUI I  &trans
+&trans  &kp X       &kp Q        &kp M           &kp W        &kp Z         &kp K      &kp F        &kp COMMA   &kp DOT      &kp FSLH    &trans
+                                 &kp LEFT_SHIFT  &mo 1        &kp DELETE    &kp SPACE  &mo 2        &kp TAB
             >;
         };
 
@@ -190,10 +190,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&trans  &kp N1      &kp N2    &kp N3        &kp N4           &kp N5           &kp N6          &kp N7          &kp N8          &kp N9           &kp N0            &trans
-&trans  &kp DELETE  &kp HOME  &kp UP_ARROW  &kp END          &kp PAGE_UP      &msc SCRL_UP    &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &hm RGUI RS(F10)  &trans
-&trans  &kp ESCAPE  &kp LEFT  &kp DOWN      &kp RIGHT_ARROW  &kp PAGE_DOWN    &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp F12           &trans
-                              &trans        &trans           &kp SPACE        &kp RET         &mo 3           &trans
+&trans  &kp N1      &kp N2    &kp N3        &kp N4                &kp N5           &kp N6          &kp N7          &kp N8          &kp N9           &kp N0       &trans
+&trans  &kp ESCAPE  &kp HOME  &kp UP_ARROW  &hm LEFT_CONTROL END  &kp PAGE_UP      &msc SCRL_UP    &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &kp RS(F10)  &trans
+&trans  &kp DELETE  &kp LEFT  &kp DOWN      &kp RIGHT_ARROW       &kp PAGE_DOWN    &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp F12      &trans
+                              &trans        &trans                &kp SPACE        &kp RET         &mo 3           &trans
             >;
         };
 
@@ -207,10 +207,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &mt LC(F2) EXCL  &mt LC(F3) AT   &mt LC(F4) HASH    &mt LC(F5) DLLR  &mt LC(F6) PRCNT    &mt RC(F7) CARET  &mt RC(F8) AMPS  &mt RC(F9) ASTRK  &mt RC(F10) LEFT_PARENTHESIS  &mt RC(F11) RPAR  &trans
-&trans  &kp ESCAPE       &trans          &hm LALT UP_ARROW  &hm LCTRL SQT    &kp GRAVE           &kp MINUS         &hm RCTRL EQUAL  &hm RALT LBKT     &hm RSHFT RBKT                &hm RGUI BSLH     &trans
-&trans  &trans           &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT_ARROW  &kp TILDE           &kp UNDER         &kp PLUS         &kp LBRC          &kp RBRC                      &kp PIPE          &trans
-                                         &kp LGUI           &mo 4            &kp SPACE           &kp RET           &trans           &trans
+&trans  &mt LC(F2) EXCL  &mt LC(F3) AT   &mt LC(F4) HASH  &mt LC(F5) DLLR  &mt LC(F6) PRCNT    &mt RC(F7) CARET  &mt RC(F8) AMPS  &mt RC(F9) ASTRK  &mt RC(F10) LEFT_PARENTHESIS  &mt RC(F11) RPAR  &trans
+&trans  &kp ESCAPE       &trans          &kp UP_ARROW     &hm LCTRL SQT    &kp GRAVE           &kp MINUS         &hm RCTRL EQUAL  &hm RALT LBKT     &hm RSHFT RBKT                &hm RGUI BSLH     &trans
+&trans  &kp DELETE       &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW  &kp TILDE           &kp UNDER         &kp PLUS         &kp LBRC          &kp RBRC                      &kp PIPE          &trans
+                                         &kp LGUI         &mo 4            &kp SPACE           &kp RET           &trans           &trans
             >;
         };
 
