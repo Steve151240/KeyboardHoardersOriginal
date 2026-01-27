@@ -194,7 +194,7 @@
 &trans  &kp B       &kp L               &kp D           &kp C        &kp V         &kp J      &kp Y         &kp O       &kp U                &kp SQT     &trans
 &trans  &hm LGUI N  &hm LEFT_CONTROL R  &hm LALT T      &hm LSHFT S  &kp G         &kp P      &hm RSHIFT H  &hm RALT A  &hm RIGHT_CONTROL E  &hm RGUI I  &trans
 &trans  &kp X       &kp Q               &kp M           &kp W        &kp Z         &kp K      &kp F         &com_semi   &per_col             &kp FSLH    &trans
-                                        &kp LEFT_SHIFT  &mo 1        &kp DELETE    &kp SPACE  &mo 2         &kp TAB
+                                        &sk LEFT_SHIFT  &mo 1        &kp DELETE    &kp SPACE  &mo 2         &kp TAB
             >;
         };
 
@@ -208,10 +208,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&trans  &kp EXCL    &kp AT    &kp HASH      &kp DOLLAR       &kp PERCENT            &kp CARET       &kp AMPS        &kp ASTRK       &kp LPAR         &kp RPAR     &trans
-&trans  &kp ESCAPE  &kp HOME  &kp UP_ARROW  &mt MINUS END    &mt PLUS PAGE_UP       &msc SCRL_UP    &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &kp RS(F10)  &trans
-&trans  &kp DELETE  &kp LEFT  &kp DOWN      &kp RIGHT_ARROW  &mt EQUAL PAGE_DOWN    &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp F12      &trans
-                              &trans        &trans           &trans                 &kp RET         &mo 3           &trans
+&trans  &kp EXCL    &kp AT    &kp HASH       &kp DOLLAR  &kp PERCENT    &kp CARET       &kp AMPS        &kp ASTRK       &kp LPAR         &kp RPAR     &trans
+&trans  &kp ESCAPE  &kp HOME  &kp PG_UP      &kp MINUS   &kp PLUS       &msc SCRL_UP    &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &kp RS(F10)  &trans
+&trans  &kp DELETE  &kp END   &kp PAGE_DOWN  &trans      &kp EQUAL      &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp F12      &trans
+                              &trans         &trans      &trans         &kp RET         &mo 3           &trans
             >;
         };
 
