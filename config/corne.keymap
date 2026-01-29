@@ -196,9 +196,9 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&trans  &kp B       &kp L               &kp D           &kp C        &kp V         &kp J      &kp Y         &kp O       &kp U                &kp SQT     &trans
-&trans  &hm LGUI N  &hm LEFT_CONTROL R  &hm LALT T      &hm LSHFT S  &kp G         &kp P      &hm RSHIFT H  &hm RALT A  &hm RIGHT_CONTROL E  &hm RGUI I  &trans
-&trans  &kp X       &kp Q               &kp M           &kp W        &kp Z         &kp K      &kp F         &com_semi   &per_col             &kp FSLH    &trans
+&trans  &kp B       &kp L               &kp D           &kp C        &kp V         &kp J      &kp Y         &kp O       &kp U                &kp SQT         &trans
+&trans  &hm LGUI N  &hm LEFT_CONTROL R  &hm LALT T      &hm LSHFT S  &kp G         &kp P      &hm RSHIFT H  &hm RALT A  &hm RIGHT_CONTROL E  &hm LEFT_WIN I  &trans
+&trans  &kp X       &kp Q               &kp M           &kp W        &kp Z         &kp K      &kp F         &com_semi   &per_col             &kp FSLH        &trans
                                         &sk LEFT_SHIFT  &mo 1        &kp DELETE    &kp SPACE  &mo 2         &kp TAB
             >;
         };
